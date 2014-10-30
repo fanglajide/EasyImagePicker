@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#2d7bc7</color>
+    <color name="grey">#eaeaea</color>
+    <color name="lineblue">#1679a3</color>
+    <color name="translucent">#00000000</color>
+    <!-- ɭ���� -->
+    <color name="lightseagreen">#20b2aa</color>
+    <!-- ������ɫ -->
+    <color name="dodgerblue">#1e90ff</color>
+    <!-- ����ɫ -->
+    <color name="midnightblue">#191970</color>
+    <!-- �л���ɫ -->
+    <color name="aqua">#00ffff</color>
+    <!-- ǳ��ɫ -->
+    <color name="cyan">#00ffff</color>
+    <color name="red">#EE0000</color>
+    <color name="light_text">#9e9e9e</color>
+    <color name="menu_bg">#dee1e2</color>
+    <color name="jsd_red">#ff0600</color>
+    <color name="jsd_blue">#0030ff</color>
+    <color name="black">#000000</color>
+    <color name="xxjs_divider">#b5b5b5</color>
+    <color name="high_case">#d9ecf2</color>
+<color name="dark_blue">#36648B	</color>
+    <color name="login_bg">#E3F3FF</color>
+    <color name="indicator_color">#00B2EE</color>
+</resources>

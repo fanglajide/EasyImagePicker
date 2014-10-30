@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+
+              android:orientation="vertical"
+              tools:context="com.dci.android.gallery.PhotoSelectorActivity">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/dark_blue">
+        <View android:layout_marginTop="1dp"
+              android:background="#1E90FF"
+              android:layout_width="2px"
+              android:layout_height="30dp"
+              android:layout_gravity="center"
+              android:layout_centerInParent="true"
+              android:id="@+id/divider"  ></View>
+        <TextView android:layout_alignParentLeft="true"
+                  android:layout_alignRight="@+id/divider"
+                style="@style/main_tab"
+                android:id="@+id/tab_photos"
+
+                android:text="@string/tab_photos"
+                />
+
+
+
+        <TextView
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/divider"
+                android:id="@+id/tab_selected"
+                style="@style/main_tab"
+                android:text="@string/tab_seleted"
+                android:layout_gravity="right"
+                />
+    </RelativeLayout>
+
+
+    <LinearLayout
+            android:id="@+id/linelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:layout_above="@+id/call">
+
+        <com.dci.android.gallery.widget.UnderlinePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="4dp"
+                android:background="@color/dark_blue"/>
+
+        <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/frame"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+
+</LinearLayout>
